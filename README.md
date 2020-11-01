@@ -1,11 +1,13 @@
 # Simple Form validator library 
 You are to note this project is an open source project incase there is an issue and i was unable to respose quickly, try your best to contribute and fix the issue.
 ## Documentation 
-This project has not beeen publish to packagis yet.
+
 ### INSTALLATION
+run this below comm
 ```
-$  composer install
+$  composer require kayode/form-validator
 ```
+### METHODS AND PROPERTIES
 this library has the following methods and property
 ```PHP
 use FormValidator\Form;
