@@ -2,18 +2,21 @@
 You are to note this project is an open source project incase there is an issue and i was unable to respose quickly, try your best to contribute and fix the issue.
 ## Documentation 
 This project has not beeen publish to packagis yet.
-
+### INSTALLATION
+```
+$  composer install
+```
 this library has the following methods and property
 ```PHP
 use FormValidator\Form;
 
 $validator = new form($_POST);
 //validate methods: this is the method were you will be setting your validation rules
-$validator->validate([])
+$validator->validate([]);
 //passed methods: this methods will be use to check if each input passed the validation rules
-$validator->passed()
+$validator->passed();
 //errors property: this property will be use to output all errors
-$validator->errors[]
+$validator->errors[];
 //errors property is the only available property
 ```
 
@@ -113,5 +116,5 @@ These are all the list of available validation rules
 8. ```min```        => validate minimum value of an input field
 9. ```min```        => validate maximum value of an input field
 
-This is an Open Source proect, you can clone and add more validation
+This is an Open Source proect, you can contribute and add more validation rules
 
